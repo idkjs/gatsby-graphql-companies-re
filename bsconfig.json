@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-graphql-companies-re",
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": ["reason-react", "@glennsl/bs-json"],
+  "reason": { "react-jsx": 2 },
+  "refmt": 3,
+  "bsc-flags": ["-bs-super-errors"]
+}

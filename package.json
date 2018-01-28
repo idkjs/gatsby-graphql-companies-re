@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-graphql-companies-re",
+  "description": "Gatsby lafrenchtech",
+  "keywords": ["lafrenchtech", "gatsby", "reasonml", "bucklescript", "graphql"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "bsb": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^1.1.2",
+    "bs-platform": "^2.1.0",
+    "gatsby": "latest",
+    "gatsby-link": "latest",
+    "gatsby-plugin-react-helmet": "^2.0.4",
+    "gatsby-source-filesystem": "latest",
+    "gatsby-transformer-json": "latest",
+    "react-helmet": "^5.2.0",
+    "reason-react": "^0.3.1"
+  }
+}

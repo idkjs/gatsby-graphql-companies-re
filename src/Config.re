@@ -1,0 +1,1 @@
+let titleTemplate = title => {j|$title | lafrenchtech-reason|j};
